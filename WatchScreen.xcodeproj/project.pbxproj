@@ -15,6 +15,7 @@
 		CE4A5AB62BBF637700223241 /* WatchScreen_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4A5AB52BBF637700223241 /* WatchScreen_Watch_AppTests.swift */; };
 		CE4A5AC02BBF637700223241 /* WatchScreen_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4A5ABF2BBF637700223241 /* WatchScreen_Watch_AppUITests.swift */; };
 		CE4A5AC22BBF637700223241 /* WatchScreen_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4A5AC12BBF637700223241 /* WatchScreen_Watch_AppUITestsLaunchTests.swift */; };
+		CE4A5AD32BBF67CF00223241 /* HealthWatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4A5AD22BBF67CF00223241 /* HealthWatcher.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		CE4A5ABB2BBF637700223241 /* WatchScreen Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WatchScreen Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE4A5ABF2BBF637700223241 /* WatchScreen_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchScreen_Watch_AppUITests.swift; sourceTree = "<group>"; };
 		CE4A5AC12BBF637700223241 /* WatchScreen_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchScreen_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CE4A5AD22BBF67CF00223241 /* HealthWatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthWatcher.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 			children = (
 				CE4A5AA42BBF637600223241 /* WatchScreenApp.swift */,
 				CE4A5AA62BBF637600223241 /* ContentView.swift */,
+				CE4A5AD22BBF67CF00223241 /* HealthWatcher.swift */,
 				CE4A5AA82BBF637700223241 /* Assets.xcassets */,
 				CE4A5AAA2BBF637700223241 /* Preview Content */,
 			);
@@ -310,6 +313,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE4A5AA72BBF637600223241 /* ContentView.swift in Sources */,
+				CE4A5AD32BBF67CF00223241 /* HealthWatcher.swift in Sources */,
 				CE4A5AA52BBF637600223241 /* WatchScreenApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
